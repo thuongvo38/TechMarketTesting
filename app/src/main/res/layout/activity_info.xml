@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <ImageView
+            android:id="@+id/imvLogo"
+            android:layout_width="231dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textColor="@color/dark_orange"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tech Store is a leading e-retailer and Retailer committed to becoming the most loved and trusted store for all electronics devices by providing a great shopping experience , rapid delivery , tech customer services and provide the best warranty support. Our store specializes in providing genuine phones and computers at competitive prices. We are committed to bringing our customers the best quality products and attentive after-sales service."
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About App"
+            android:textAlignment="center"
+            android:textColor="@color/dark_orange"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version : 1.0.1\nLast Updated: Jun 18, 2023\nAndroid 5.0 or higher required\nDownloads: 1,000+ downloads\nContent Rating: Suitable for 3 years and up\nReleased on: Jun 6, 2023\nProvided by: Group 9 - NT118.N21.HTCL\nCompatibility with active device: Redmi 2201116TG\nDownload Size: 48 MB"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_margin="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textAlignment="center"
+            android:textColor="@color/dark_orange"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feel free to contact us for any inquiries or feedback. You can reach us via phone, email or visit our store during business hours.\n Phone number: +1234567890\nEmail: techstore@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
